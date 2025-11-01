@@ -416,10 +416,6 @@ Expected QBER ≈ γ/4
 ### Running Unit Tests
 
 ```bash
-# Run all tests
-python test_bb84.py
-
-# Run with verbose output
 python test_bb84.py -v
 
 # Run specific test class
@@ -492,55 +488,7 @@ Typical execution times on modern CPU (n_bits=1000):
 
 ---
 
-## References
-
-### Foundational Papers
-
-1. **Bennett, C. H., & Brassard, G. (1984).** Quantum cryptography: Public key distribution and coin tossing. *Proceedings of IEEE International Conference on Computers, Systems and Signal Processing*.
-
-2. **Shor, P. W., & Preskill, J. (2000).** Simple proof of security of the BB84 quantum key distribution protocol. *Physical Review Letters, 85(2)*, 441.
-
-3. **Ekert, A. K. (1991).** Quantum cryptography based on Bell's theorem. *Physical Review Letters, 67(6)*, 661.
-
-### Security Analysis
-
-4. **Renner, R. (2008).** Security of quantum key distribution. *International Journal of Quantum Information, 6(01)*, 1-127.
-
-5. **Scarani, V., et al. (2009).** The security of practical quantum key distribution. *Reviews of Modern Physics, 81(3)*, 1301.
-
-### Reviews
-
-6. **Gisin, N., et al. (2002).** Quantum cryptography. *Reviews of Modern Physics, 74(1)*, 145.
-
-7. **Pirandola, S., et al. (2020).** Advances in quantum cryptography. *Advances in Optics and Photonics, 12(4)*, 1012-1236.
-
-### Textbooks
-
-8. **Nielsen, M. A., & Chuang, I. L. (2010).** Quantum Computation and Quantum Information. *Cambridge University Press*.
-
----
-
-## Contributing
-
-This project was developed for the Quantum Jam 2025 hackathon. Contributions, suggestions, and improvements are welcome.
-
----
-
-## License
-
-This project is provided for educational and research purposes as part of the Quantum Jam 2025 hackathon.
-
----
-
 ## Acknowledgments
 
-- **IBM Quantum** for providing Qiskit framework
-- **Bennett & Brassard** for inventing BB84
-- **Quantum Jam 2025 organizers** for the opportunity
-
----
-
-**Last Updated:** 2025
-**Version:** 1.0.0
-**Status:** Production-ready for hackathon submission
-# QuantumJam
+- **IBM Quantum** provided Qiskit framework
+- **Bennett & Brassard** inventing BB84
